@@ -1,6 +1,6 @@
 ---
 layout: content
-title: stefan arseneau: general nonsense
+title: stefan arseneau - general nonsense
 ---
 <h1>Ice Climbing</h1>
 
