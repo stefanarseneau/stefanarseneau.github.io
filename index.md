@@ -11,7 +11,7 @@ Previously I worked on the [CLASS Telescope](https://sites.krieger.jhu.edu/class
 
 <h1 id="research">Research</h1>
 
-Currently, I'm studying white dwarfs in wide binaries with main sequence stars, but I'm interested in a wide variety of things from a wide variety of fields. More information on my current and past research can be found on my (yet to be created) research page.
+Currently, I'm studying white dwarfs in wide binaries with main sequence stars, but I'm interested in a wide variety of things from a wide variety of fields. More information on my current and past research can be found on my [research page](arseneausm.github.io/research).
 
 <h1 id="publications">Publications</h1>
 
