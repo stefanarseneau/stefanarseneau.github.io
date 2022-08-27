@@ -1,5 +1,6 @@
 ---
 layout: content
+title: stefan arseneau: research
 ---
 
 <h1>The Mass-Radius Relation of White Dwarfs</h1>

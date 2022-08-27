@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stefan Arseneau
+title: stefan arseneau
 ---
 
 <h1 id="about">About Me</h1>
