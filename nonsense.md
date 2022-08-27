@@ -1,6 +1,7 @@
 ---
 layout: content
 title: nonsense
+logo: false
 ---
 <h1>Ice Climbing</h1>
 
