@@ -1,3 +1,6 @@
+---
+layout: content
+---
 
 <h1>The Mass-Radius Relation of White Dwarfs</h1>
 <h3>What is the Mass-Radius Relation?</h3>

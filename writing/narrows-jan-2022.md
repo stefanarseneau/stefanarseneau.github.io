@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: content
 ---
 
 <h1>Ice Climbing in The Narrows</h1>

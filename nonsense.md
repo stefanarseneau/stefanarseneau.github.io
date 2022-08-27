@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: content
 ---
-
 <h1>Ice Climbing</h1>
 
 See writeups of my ice climbing escapades. Hopefully, more to come soon this winter!

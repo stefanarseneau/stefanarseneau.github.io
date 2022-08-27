@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -16,13 +12,6 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-						<p>{{ site.description | default: site.github.project_tagline }}</p>
-
-					</div>
-
 
 				<!-- Main -->
 					<div id="main">
@@ -30,6 +19,9 @@
 						<!-- Featured Post -->
 							<article >
 								<header class="major">
+									<h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+									<p>{{ site.description | default: site.github.project_tagline }}</p>
+									<hr>
 									<span><a href="https://arseneausm.github.io/#about">About Me</a> | <a href="https://arseneausm.github.io/research">Research</a> | <a href="https://arseneausm.github.io/#cv">CV</a> | <a href="https://arseneausm.github.io/nonsense">Goofy Nonsense</a></span>
 									<br>
 									<hr>
@@ -41,7 +33,6 @@
 
       									</section>
 								</header>
-
 							</article>
 
 						
