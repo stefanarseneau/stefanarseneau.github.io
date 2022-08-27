@@ -10,6 +10,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ "/assets/css/main.css?v=" | append: site.github.build_revision | relative_url }}"/>
 		<noscript><link rel="stylesheet" href="{{ "/assets/css/noscript.css?v=" | append: site.github.build_revision | relative_url }}"/></noscript>
+		<title>{{ page.title }}</title>
 	</head>
 	<body class="is-preload">
 
@@ -33,7 +34,7 @@
 									<span><a href="https://arseneausm.github.io/#about">About Me</a> | <a href="https://arseneausm.github.io/research">Research</a> | <a href="https://arseneausm.github.io/#cv">CV</a> | <a href="https://arseneausm.github.io/nonsense">Goofy Nonsense</a></span>
 									
 									{% if site.logo %}
-          								<img src="{{site.logo | relative_url}}" alt="Logo" />
+          								<a href='/'><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
         								{% endif %}
 									<br>
 									<hr>
