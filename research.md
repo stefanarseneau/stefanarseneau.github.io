@@ -1,6 +1,7 @@
 ---
 layout: content
 title: research
+logo: false
 ---
 
 <h1>The Mass-Radius Relation of White Dwarfs</h1>
