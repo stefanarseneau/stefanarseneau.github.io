@@ -1,6 +1,6 @@
 ---
 layout: content
-title: general nonsense
+title: nonsense
 ---
 <h1>Ice Climbing</h1>
 
