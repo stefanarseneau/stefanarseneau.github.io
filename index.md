@@ -5,7 +5,7 @@ title: stefan arseneau
 
 <h1 id="about">About Me</h1>
 
-I am an undergraduate at [Johns Hopkins](https://www.jhu.edu) studying Mathematics and Physics. I work with [Professor Nadia Zakamska](zakamska.johnshopkins.edu) and [Vedant Chandra](vedantchandra.com) studying the mass-radius relation of white dwarfs in wide binaries with main sequence stars.
+I am an undergraduate at [Johns Hopkins](https://www.jhu.edu) studying Mathematics and Physics. I work with [Professor Nadia Zakamska](https://zakamska.johnshopkins.edu) and [Vedant Chandra](https://vedantchandra.com) studying the mass-radius relation of white dwarfs in wide binaries with main sequence stars.
 
 Previously I worked on the [CLASS Telescope](https://sites.krieger.jhu.edu/class/) under Professor Toby Marriage, characterizing aerogel scattering filters in collaboration with [Tom Essinger-Hileman](https://science.gsfc.nasa.gov/sed/bio/thomas.m.essinger-hileman) at NASA Goddard.
 
