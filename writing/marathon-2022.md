@@ -11,7 +11,7 @@ layout: content
 My main challenge in training for a fall race was the heat. Baltimore in the summer is very hot and humid and because of my work schedule I was only able to run in the evenings. Anecdotally, I saw a drop in pace of around 30-60 seconds per mile  when training in the hottest part of the day, and it made completing some of my long runs challenging. In the future, I think the keys to mitigating this will be hydrating better (especially with respect to electrolytes) and easing into summer runs. Rather than forcing myself to complete every run without breaks, as it starts to get hot it might be better to break each run up into 1.5-2 mile segments with a 30-60 second rest in between each segment for the first two weeks of the hot season to allow for acclimatization. Also, I did no heart rate training. All of my training was based on pace and mileage. Capping some of my runs at ~160bpm may be a way to account for the heat. I'll see a pace decline, but my cardiovascular fitness will improve in such a way that the arrival of cold weather will be like taking off the breaks!
 
 <figure>
-  <img src="https://github.com/stefanarseneau/stefanarseneau.github.io/writing/marathon_2022/temp_pace.png" alt="Correlation between temperature and pace" width="500"/>
+  <img src="../images/marathon_2022/temp_pace.png" alt="Correlation between temperature and pace" width="500"/>
   <figcaption>Temperature was positively correlated with pace across race training. Note: the impacts of improvements of overall cardiovascular fitness, challenging terrain, and distance are not accounted for in this plot. It should be taken as a rough estimate with a large grain of salt.</figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ Come fall, when the temperatures dropped to ~70 degrees in the leadup to the rac
 **Race:** The marathon course goes north from Camden Yards uphill through West Baltimore to the Johns Hopkins campus, then south downhill to the Under Armor Headquarters, then back north to Hopkins through East Baltimore, and finishes downhill at Inner Harbor. The race route can basically be split into three sections: a ~200 foot hill that goes up and down from the start to 9mi, a flat middle section from 9mi to 15mi, and a shallower but longer hill that goes up and down from 15mi to 26.2mi. 
 
 <figure>
-	<img src="https://github.com/stefanarseneau/stefanarseneau.github.io/writing/marathon_2022/splits.png" alt="Race splits" width="500"/>
+	<img src="../images/marathon_2022/splits.png" alt="Race splits" width="500"/>
 	<figcaption>Marathon splits. Note the obvious bonk.</figcaption>
 </figure>
 
