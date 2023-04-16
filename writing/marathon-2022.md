@@ -11,7 +11,7 @@ layout: content
 My main challenge in training for a fall race was the heat. Baltimore in the summer is very hot and humid and because of my work schedule I was only able to run in the evenings. Anecdotally, I saw a drop in pace of around 30-60 seconds per mile  when training in the hottest part of the day, and it made completing some of my long runs challenging. In the future, I think the keys to mitigating this will be hydrating better (especially with respect to electrolytes) and easing into summer runs. Rather than forcing myself to complete every run without breaks, as it starts to get hot it might be better to break each run up into 1.5-2 mile segments with a 30-60 second rest in between each segment for the first two weeks of the hot season to allow for acclimatization. Also, I did no heart rate training. All of my training was based on pace and mileage. Capping some of my runs at ~160bpm may be a way to account for the heat. I'll see a pace decline, but my cardiovascular fitness will improve in such a way that the arrival of cold weather will be like taking off the breaks!
 
 <figure>
-  <img src="../images/temp_pace.png" alt="Correlation between temperature and pace" width="500"/>
+  <img src="./marathon_2022/temp_pace.png" alt="Correlation between temperature and pace" width="500"/>
   <figcaption>Temperature was positively correlated with pace across race training. Note: the impacts of improvements of overall cardiovascular fitness, challenging terrain, and distance are not accounted for in this plot. It should be taken as a rough estimate with a large grain of salt.</figcaption>
 </figure>
 
@@ -19,6 +19,11 @@ My main challenge in training for a fall race was the heat. Baltimore in the sum
 Come fall, when the temperatures dropped to ~70 degrees in the leadup to the race, I saw very strong improvements in my pace compared to the previous spring. In the last several weeks, I did several 16 mile runs at race pace that felt very comfortable, and set several 10k PRs. 
 
 **Race:** The marathon course goes north from Camden Yards uphill through West Baltimore to the Johns Hopkins campus, then south downhill to the Under Armor Headquarters, then back north to Hopkins through East Baltimore, and finishes downhill at Inner Harbor. The race route can basically be split into three sections: a ~200 foot hill that goes up and down from the start to 9mi, a flat middle section from 9mi to 15mi, and a shallower but longer hill that goes up and down from 15mi to 26.2mi. 
+
+<figure>
+	<img src="./marathon_2022/splits.png" alt="Race splits" width="500"/>
+	<figcaption>Marathon splits. Note the obvious bonk.</figcaption>
+</figure>
 
 I maintained around 8:15 min/mi through the first two miles, but I bonked around mile 18, where my times dropped to ~11 min/mi and never recovered. There were three main factors that contributed to this. The first was improper fueling. At 18 miles, the body runs out of carbohydrate reserves and if the runner isn't refueling properly, they hit a wall. Although I took shot blocks at every other aid station (that is, every 4 miles), I did not develop a robust fueling strategy in my training runs. This meant that I was essentially making up race strategy in my head as I ran and I had no experience running through that wall, so I was not prepared for it. Additionally I stopped eating in the latter half of the race due to stomach issues, meaning that I was not taking in calories for the second half of the race at nearly the rate that I should have been. For future training, I need to practice eating during every run over 10 miles so that my body has experience intaking energy on the fly.
 
