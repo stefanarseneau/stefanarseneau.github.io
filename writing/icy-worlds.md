@@ -5,7 +5,7 @@ layout: content
 ## Icy Worlds And Their Liquid Oceans
 
 <figure>
-  <img height=500 src="https://solarsystem.nasa.gov/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSXBNR0poTlRCaFlUa3RZMlkyWXkwME1ESmtMV0ZtWVRRdE1EQmxaR1ptTm1abE1UQTRCam9HUlZRNkVHUnBjM0J2YzJsMGFXOXVTU0pIWVhSMFlXTm9iV1Z1ZERzZ1ptbHNaVzVoYldVOUlsQkpRVEV4TVRNekxtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuVUVsQk1URXhNek11YW5CbkJqc0dWRG9SWTI5dWRHVnVkRjkwZVhCbFNTSUFCanNHVkE9PSIsImV4cCI6IjIwMjMtMDQtMjRUMjM6MzQ6NTIuNjM1WiIsInB1ciI6ImJsb2Jfa2V5In19--1aeda9e98988a9f3ed4df6cd5f0f2888ef8afe24/PIA11133.jpg?content_type=&disposition=attachment%3B+filename%3D%22PIA11133.jpg%22%3B+filename%2A%3DUTF-8%27%27PIA11133.jpg"/>
+  <img height=500 src="https://media.npr.org/assets/img/2015/03/11/enceladus_wide-25a18c561c854ce907afdbc798cfd48580391631-s1400-c100.jpg"/>
   <figcaption>Image Credit: NASA/JPL/Space Science Institute</figcaption>
 </figure>
 
