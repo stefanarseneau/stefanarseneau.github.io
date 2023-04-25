@@ -2,3 +2,10 @@ title: Stefan Arseneau
 description: Miller Department of Physics and Astronomy, Johns Hopkins University
 logo: assets/headshot.jpg
 url: "https://stefanarseneau.github.io"
+
+author: stefanarseneau
+social:
+  name: Stefan Arseneau
+  links:
+    - https://twitter.com/arseneausm
+    - https://github.com/stefanarseneau
