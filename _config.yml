@@ -3,6 +3,9 @@ description: Miller Department of Physics and Astronomy, Johns Hopkins Universit
 logo: assets/headshot.jpg
 url: "https://stefanarseneau.github.io"
 
+plugins:
+  - jekyll-seo-tag
+
 author: stefanarseneau
 social:
   name: Stefan Arseneau
