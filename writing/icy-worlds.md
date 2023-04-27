@@ -13,7 +13,7 @@ Enceladus, Saturn's second moon, orbits over 1 billion kilometers from the Sun. 
 
 The Cassini mission relayed the first high-resolution image of Enceladus, reavealing a world with a bright, icy surface. In these pictures, scientists observed massive fractures running hundreds of kilometers along the moon's surface. They called them "tiger stripes." They immediately noticed something strange: the tiger stripes were warmer than the rest of the surface. Soon, telescope observations discovered that they contained massive geysers, shooting jets of water and ammonia into space at velocities of hundreds of kilometers an hour.
 
-The tiger stripes were cryovolcanos, erupting plumes of liquid water and ammonia like volcanoes on Earth erupt magma. These eruption materials settled on the surface, where they quickly froze onto Enceladus' icy crust. But where was this water coming from, and how was it possible that it could be liquid so far from the Sun?
+The tiger stripes were cryovolcanos, erupting plumes of liquid water like volcanoes on Earth erupt magma. These eruption materials settled on the surface, where they quickly froze onto Enceladus' icy crust. But where was this water coming from, and how was it possible that it could be liquid so far from the Sun?
 
 It was determined that there were two possibilities. Either the water could be stored in small isolated pockets scattered deep within the icy crust, or it could spring from a vast global ocean upon which the icy shell floated. To determine which of these was the case, Cassini was ordered to carry out detailed measurements of the moon's gravitational field. 
 
