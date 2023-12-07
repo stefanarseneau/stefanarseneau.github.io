@@ -8,8 +8,6 @@ logo: false
 
 Sometimes, I run marathons. When I'm not running marathons, I get into the weeds on my Strava data to try and figure out why everything hurts.
 
-- [2023 Baltimore Marathon Training](https://stefanarseneau.github.io/writing/marathon-2023)
-- [2022 Baltimore Marathon Training](https://stefanarseneau.github.io/writing/marathon-2022)
 
 <h1>Ice Climbing</h1>
 
