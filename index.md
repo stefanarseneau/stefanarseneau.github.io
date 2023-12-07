@@ -19,4 +19,4 @@ My publications can be found [here, on arxiv](https://arxiv.org/search/?query=Ar
 
 <h1 id="cv">CV</h1>
 
-Here's the [latest version of my CV (pdf)](assets/CV2.pdf). 
+Here's the [latest version of my CV (pdf)](assets/cv_phys.pdf). 
