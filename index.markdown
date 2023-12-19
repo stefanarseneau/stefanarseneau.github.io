@@ -9,7 +9,7 @@ style: assets/css/style.css
  
  <h1>About Me</h1>
 
-I am an observational astrophysicist at [Johns Hopkins](https://www.jhu.edu), where I'm currently completing my undergraduate degree in Physics and Mathematics. I work with [Professor Nadia Zakamska](https://zakamska.johnshopkins.edu) and [Vedant Chandra](https://vedantchandra.com), studying white dwarf stars in the Sloan Digital Sky Survey. I'm especially interested in white dwarfs in wide binaries with main sequence stars and white dwarfs that have accretion disks.
+I am an observational astrophysicist at [Johns Hopkins](https://www.jhu.edu), where I'm currently completing my undergraduate degree in Physics and Mathematics. I work with [Professor Nadia Zakamska (JHU)](https://zakamska.johnshopkins.edu) and [Vedant Chandra (CfA)](https://vedantchandra.com), studying white dwarf stars in the Sloan Digital Sky Survey. I'm especially interested in white dwarfs in wide binaries with main sequence stars and white dwarfs that have accretion disks.
 
 Previously I worked on the [CLASS Telescope](https://sites.krieger.jhu.edu/class/) under Professor Toby Marriage, characterizing aerogel scattering filters in collaboration with [Tom Essinger-Hileman](https://science.gsfc.nasa.gov/sed/bio/thomas.m.essinger-hileman) at NASA Goddard. 
 
@@ -19,7 +19,7 @@ Currently, I'm studying white dwarfs in wide binaries with main sequence stars, 
 
 4) **Arseneau, S.;** Chandra, V.; Hwang, H.; Zakamska, N.L.; Pallathadka, G.A.; Crumpler, N.R.; Hermes, J.J.; El-Badry, K.; Rix, H.; Stassun, K.G.; Gaensicke, B.T.; Brownstein, J.R.; Morrison, S. 2023. Measuring the Mass-Radius Relation of White Dwarfs Using Wide Binaries. Under Review in the Astrophysical Journal. [https://arxiv.org/abs/2310.19866](https://arxiv.org/abs/2310.19866)
 
-3) Pallathadka, G.A.; Chandra, V.; Zakamska, N.L.; Hwang, H.; Zentai, Y; Hermes, J.J.; El-Badry, K.; G¨ansicke, B.T.; Morrison, S.; Crumpler, N.R.; **Arseneau, S.** 2023. Discovery of A Proto-White Dwarf With A Massive Unseen Companion. Under Review in the Astrophysical Journal. [https://doi.org/10.48550/arXiv.2310.16313](https://doi.org/10.48550/arXiv.2310.16313)
+3) Pallathadka, G.A.; Chandra, V.; Zakamska, N.L.; Hwang, H.; Zentai, Y; Hermes, J.J.; El-Badry, K.; Gaensicke, B.T.; Morrison, S.; Crumpler, N.R.; **Arseneau, S.** 2023. Discovery of A Proto-White Dwarf With A Massive Unseen Companion. Under Review in the Astrophysical Journal. [https://doi.org/10.48550/arXiv.2310.16313](https://doi.org/10.48550/arXiv.2310.16313)
 
 2) Barlis, A.; **Arseneau, S.;** Bennett, C.L.; Essinger-Hileman, T.; Guo, H.; Helson, K.R.; Marriage, T.; Quijada, M.A.; Tokarz, A.E.; Vivod, S.L.; and Wollack, E.J., 2022. Characterization of aerogel scattering filters for astronomical telescopes. Proc. SPIE 12190, Millimeter, Submillimeter, and Far-Infrared Detectors and Instrumentation for Astronomy XI, 121902I (31 August 2022). [https://doi.org/10.1117/12.2627341](https://doi.org/10.1117/12.2627341)
 
