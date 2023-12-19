@@ -23,3 +23,5 @@ Currently, I'm studying white dwarfs in wide binaries with main sequence stars, 
 2) Barlis, A.; **Arseneau, S.;** Bennett, C.L.; Essinger-Hileman, T.; Guo, H.; Helson, K.R.; Marriage, T.; Quijada, M.A.; Tokarz, A.E.; Vivod, S.L.; and Wollack, E.J., 2022. Characterization of aerogel scattering filters for astronomical telescopes. Proc. SPIE 12190, Millimeter, Submillimeter, and Far-Infrared Detectors and Instrumentation for Astronomy XI, 121902I (31 August 2022). [https://doi.org/10.1117/12.2627341](https://doi.org/10.1117/12.2627341)
 
 1) Helson, K.R.; **Arseneau, S.;** Barlis, A.; Bennett, C.L.; Essinger-Hileman, T.M.; Guo, H.; Marriage, T.; Quijada, M.A.; Tokarz, A.E.; Vivod, S.L.; and Wollack, E.J., 2022. Novel infrared-blocking aerogel scattering filters and their applications in astrophysical and planetary science. Proc. SPIE 12190, Millimeter, Submillimeter, and Far-Infrared Detectors and Instrumentation for Astronomy XI, 121901P (31 August 2022). [https://doi.org/10.1117/12.2630165](https://doi.org/10.1117/12.2630165)
+
+<br>
