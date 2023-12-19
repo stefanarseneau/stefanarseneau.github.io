@@ -16,18 +16,20 @@
           
           <div class="split center">
             <div class="title">
-                <a href src="{{ site.url }}" style="text-align: center">{{ page.title }}</a>
+                <a href src="{{ site.url }}">{{ page.title }}</a>
                 <br>
-
-                <p style="font-family: arial, helvetica, sans-serif; text-align: center;">
+                <br>
+                <p style="font-family: 'Andale Mono', monospace; text-align: center; font-weight:bold; font-size:20px">
                 <img src="{{ "/assets/headshot.jpg" | relative_url }}">
-                <br><br>
+                <br><br><br>
                 {{site.position}} <br>
                 {{site.location}} <br>
                 <span style="color: #3366ff;">email: {{site.email}}</span>
                 </p> 
               <br>
             </div>
+
+            <br><br><br>
 
             <div class="content">
                 {{content}}
