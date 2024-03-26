@@ -14,8 +14,10 @@ I am an observational astrophysicist at [Johns Hopkins](https://www.jhu.edu), wh
 Previously I worked on the [CLASS Telescope](https://sites.krieger.jhu.edu/class/) under Professor Toby Marriage, characterizing aerogel scattering filters in collaboration with [Tom Essinger-Hileman](https://science.gsfc.nasa.gov/sed/bio/thomas.m.essinger-hileman) at NASA Goddard. 
 
  <h1>Software</h1>
-* [`corv`: compact object radial velocities](https://github.com/vedantchandra/corv)
-* [`wdphoto`: photometric fitting code for white dwarfs](https://github.com/stefanarseneau/wdphoto)
+<ul>
+ <li>[`corv`: compact object radial velocities](https://github.com/vedantchandra/corv)
+ <li>[`wdphoto`: photometric fitting code for white dwarfs](https://github.com/stefanarseneau/wdphoto)
+</ul>
 
 <h1>Research</h1>
 
