@@ -13,6 +13,10 @@ I am an observational astrophysicist at [Johns Hopkins](https://www.jhu.edu), wh
 
 Previously I worked on the [CLASS Telescope](https://sites.krieger.jhu.edu/class/) under Professor Toby Marriage, characterizing aerogel scattering filters in collaboration with [Tom Essinger-Hileman](https://science.gsfc.nasa.gov/sed/bio/thomas.m.essinger-hileman) at NASA Goddard. 
 
+ <h1>Software</h1>
+* [`corv`: compact object radial velocities](https://github.com/vedantchandra/corv)
+* [`wdphoto`: photometric fitting code for white dwarfs](https://github.com/stefanarseneau/wdphoto)
+
 <h1>Research</h1>
 
 Currently, I'm studying white dwarfs in wide binaries with main sequence stars, but I'm interested in a wide variety of things from a wide variety of fields. My publications can be found [here, on arxiv](https://arxiv.org/search/?query=Arseneau%2C+S&searchtype=author&source=header) and [here, on ADS](https://ui.adsabs.harvard.edu/search/q=%20author%3A%22Stefan%20Arseneau%22&sort=date%20desc%2C%20bibcode%20desc&p_=0). Here's the [latest version of my CV (pdf)](assets/cv_phys.pdf). 
