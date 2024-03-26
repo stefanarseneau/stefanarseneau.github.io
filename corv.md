@@ -18,6 +18,5 @@ corv is designed to measure the radial velocities of white dwarfs to the highest
 
 **How Do I Use corv?**
 
-To fit a radial velocity, the first thing you need to do is tell corv what lines to fit and what to fit it with. This is done by creating a corv model. Lines can be fit using either Voigt profiles or actual DA white dwarf model spectra. To fit with a Voigt profile fitting the Balmer alpha, beta, gamma and delta lines, one might call:
-
+Several examples of corv in action can be found <a href="https://github.com/stefanarseneau/corvtutorial">here.</a> To fit a radial velocity, the first thing you need to do is tell corv what lines to fit and what to fit it with. This is done by creating a corv model. Lines can be fit using either Voigt profiles or actual DA white dwarf model spectra. To fit with a Voigt profile fitting the Balmer alpha, beta, gamma and delta lines, one might call:
 <code>corvmodel = corv.models.make_balmer_model(nvoigt = 2, names = ['a','b','g','d'])</code>
