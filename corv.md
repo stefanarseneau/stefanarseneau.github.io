@@ -7,4 +7,6 @@ title: "corv : compact object radial velocities"
 style: assets/css/style.css
 ---
 
-Test content
+<a href="https://github.com/vedantchandra/corv">Find corv on github</a>
+
+corv is designed to measure the radial velocities of white dwarfs to the highest possible accuracy. 
