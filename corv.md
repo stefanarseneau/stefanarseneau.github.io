@@ -25,3 +25,5 @@ Several examples of corv in action can be found <a href="https://github.com/stef
 Likewise, if you wanted to fit a corv model on the same lines using the <a href="https://warwick.ac.uk/fac/sci/physics/research/astro/people/tremblay/modelgrids/">Warwick DA model spectra,</a> you'd call:
 
 <code>corvmodel = corv.models.make_warwick_da_model(names = ['a','b','g','d'])</code>
+
+corv uses the 3D NLTE DA model spectra provided at the above link.
