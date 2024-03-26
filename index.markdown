@@ -15,8 +15,8 @@ Previously I worked on the [CLASS Telescope](https://sites.krieger.jhu.edu/class
 
  <h1>Software</h1>
 <ul>
- <li> [corv](https://github.com/vedantchandra/corv/) : compact object radial velocities [(documentation)](https://stefanarseneau.github.io/corv)</li>
- <li> [wdphoto](https://github.com/stefanarseneau/wdphoto/) : photometric fitting code for white dwarfs [(documentation)](https://stefanarseneau.github.io/wdphoto.md)</li>
+ <li> <a href="https://github.com/vedantchandra/corv/">corv</a> : compact object radial velocities <a href="https://stefanarseneau.github.io/corv">(documentation)</a></li>
+ <li> <a href="https://github.com/stefanarseneau/wdphoto/">wdphoto</a> : photometric fitting code for white dwarfs <a href="https://stefanarseneau.github.io/wdphoto.md">(documentation)</a></li>
 </ul>
 
 <h1>Research</h1>
