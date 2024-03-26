@@ -15,3 +15,7 @@ corv is designed to measure the radial velocities of white dwarfs to the highest
   <li>First, corv generates a rough estimate of \(T_{eff}\) and \(\log g\) by performing an ordinary least squares regression against the normalized inputted spectrum. These parameters are only rough estimates though. If you need accurate measurements of \(T_{eff}\) or \(\log g\) then <a href="https://github.com/vedantchandra/wdtools">this is the package you want.</a></li>
   <li>With the best fit spectral parameters identified, corv calculates radial velocity by chi squared minimization on a fine grid. By fitting these parameters in separate steps, radial velocity can be determined much more accurately and with better statistical uncertainties.</li>
 </ol>
+
+**How Do I Use corv?**
+
+Test word test word
