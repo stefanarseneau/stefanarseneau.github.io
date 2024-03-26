@@ -5,7 +5,7 @@
 layout: article
 title: "corv : compact object radial velocities"
 style: assets/css/style.css
-page_image: assets/headshot.png
+page_image: assets/corv.png
 ---
 
 <a href="https://github.com/vedantchandra/corv">Find corv on github</a>
