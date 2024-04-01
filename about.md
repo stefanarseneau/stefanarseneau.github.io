@@ -17,4 +17,4 @@ Other fun facts about me:
 - I once got stuck on top of Mt Washington and had to take the cog railway
 - I've run a marathon
 - I've been ice climbing and I've rappelled into a cave
-- I was once offerred a job in nuclear materials control and accountability
+- I was once offered a job in nuclear materials control and accountability
