@@ -1,6 +1,6 @@
 # main text of home
 title: stefan
-bio: astronomer
+bio: big-time space astronomer
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -44,7 +44,7 @@ email: arseneausm@gmail.com
 authors:
   johndoe:
     name: stefan
-    bio: astronomer
+    bio: a big-time space astronomer
     external-image: false
     picture: assets/images/profile.jpg
 
