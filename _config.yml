@@ -1,6 +1,6 @@
 # main text of home
-title: John Doe
-bio: A Person who travels the world eating noodles
+title: stefan
+bio: astronomer
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -20,7 +20,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://stefanarseneau.github.io/indigo
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
