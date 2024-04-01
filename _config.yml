@@ -18,7 +18,7 @@ dark-theme: false
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: https://stefanarseneau.github.io/resume
+resume-url: resume
 
 url: https://stefanarseneau.github.io
 # your url: https://USERNAME.github.io
