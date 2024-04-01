@@ -12,3 +12,9 @@ and detecting them is a cool statistical problem.
 
 When I'm not doing astronomy, I go for long runs and read books. Recently, I read *Underland* by Robert MacFarlane, which is probably my favorite book right now. If you, the reader, happen
 to *be* Robert MacFarlane, shoot me an email. Let's get coffee.
+
+Other fun facts about me:
+- I've been ice climbing and I've rappelled into a cave
+- I was once offerred a job in nuclear materials control and accountability (which I declined)
+- I once got stuck on top of Mt Washington and had to take a cog railway down
+- I've run a marathon
