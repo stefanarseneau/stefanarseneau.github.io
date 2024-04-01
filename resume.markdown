@@ -7,4 +7,5 @@ layout: page
 
 
 **BS, Johns Hopkins University 2024**
+
 Majors: Mathematics & Physics; Minor: Earth & Planetary Sciences
