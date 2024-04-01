@@ -14,7 +14,7 @@ When I'm not doing astronomy, I go for long runs and read books. Recently, I rea
 to *be* Robert MacFarlane, shoot me an email. Let's get coffee.
 
 Other fun facts about me:
-- I once got stuck on top of Mt Washington and had to take a cog railway down
+- I once got stuck on top of Mt Washington and had to take the cog railway
 - I've run a marathon
 - I've been ice climbing and I've rappelled into a cave
 - I was once offerred a job in nuclear materials control and accountability
