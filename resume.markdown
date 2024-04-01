@@ -7,7 +7,7 @@ layout: page
 
 **2022 - 2024. Zakamska Stellar Astrophysics Group**
 
-Advisors: <a href="zakamska.johnshopkins.edu">Nadia Zakamska</a> and <a href="vedantchandra.com">Vedant Chandra</a>
+Advisors: <a href="https://zakamska.johnshopkins.edu">Nadia Zakamska</a> and <a href="https://vedantchandra.com">Vedant Chandra</a>
 
 ## Education
 
