@@ -14,12 +14,6 @@ picture: assets/images/pfp_square.png
 # false to light theme, auto to switch with system.
 dark-theme: false
 
-# If you want to include your resume, set to true
-# and specify source (external or local).
-resume: true
-resume-external: false
-resume-url: resume
-
 url: https://stefanarseneau.github.io
 # your url: https://USERNAME.github.io
 
@@ -27,11 +21,6 @@ permalink: /:title/
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
-
-# if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname:  # enter this from your disqus account
-  categories:  # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
@@ -55,27 +44,11 @@ authors:
 width: normal
 
 
-# add default values to specific pages or layouts
-defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      layout: "post"
-    values:
-      # setting all post to not hidden by default,
-      # can be overridden in the front matter for a specific post
-      hidden: false
-
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
-compress_html:
-  ignore:
-    envs:
-      - development
-      - stage
 
 exclude:
   [
