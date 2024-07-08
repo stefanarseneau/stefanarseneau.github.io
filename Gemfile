@@ -1,11 +1,7 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-group :jekyll_plugins do
-    gem 'github-pages'
-    gem 'jekyll-feed'
-    gem 'jekyll-gist'
-    gem 'jekyll-seo-tag'
-    gem 'jemoji'
-end
+gem 'github-pages'
 
-gem "webrick"
+gem 'therubyracer'
+
+gem "webrick", "~> 1.8"

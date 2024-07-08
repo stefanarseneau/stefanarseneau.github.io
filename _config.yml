@@ -1,29 +1,42 @@
-# main text of home
-title: Stefan Arseneau
-bio: Astronomer
-description: space
+# Site settings
+title: "Stefan M. Arseneau"
+description: "Homepage of Stefan M. Arseneau"
+baseurl: /
 
-# if it's an external image, update below for true
-# better with square images
-external-image: false
-picture: assets/images/pfp_square.png
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
 
-url: https://stefanarseneau.github.io
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Stefan Arseneau"
+resume_title:                   "Astrophysicist"
+resume_contact_email:           "arseneau@bu.edu"
 
-permalink: /:title/
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
 
-# To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+# Decide which sections to use
+# comment out to hide
 
-# if you don't have any of social below, comment the line
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/stefanarseneau"
+  resume_github_url:            "https://github.com/earlbellinger"
+  #resume_dribbble_url:          "https://dribbble.com/jag"
+  #resume_facebook_url:          "https://facebook.com/earlbellinger"
+  #resume_linkedin_url:          "https://www.linkedin.com/in/earlbellinger"
+  #resume_instagram_url:         "insert your Instagram URL here"
+  #resume_website_url:           "http://www.astro.yale.edu/bellinger/"
 
-exclude:
-  [
-    "README.md",
-    "Gemfile",
-    "Gemfile.lock",
-    "FAQ.md",
-    "vendor",
-  ]
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts

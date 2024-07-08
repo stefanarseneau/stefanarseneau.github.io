@@ -1,59 +1,34 @@
----
-layout: compress
----
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
 
-    {% if site.analytics-google %}
-        {% include analytics-google.html %}
-    {% endif %}
+{% include head.html %}
 
-    <meta charset="utf-8">
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <meta name=author content="{{ site.title }}">
+<body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
 
-    {% seo %}
+  <div class="wrapper" itemscope itemtype="http://schema.org/Person">
 
-    {% include favicon.html %}
+    <header class="page-header">
 
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+      {% if site.resume_avatar == 'true' %}
+      <img src="images/avatar2.jpg" alt="my photo" class="avatar" itemprop="image">
+      {% endif %}
 
-    <style>
-    
-    {% if site.dark-theme == "auto" %}
-        {% capture scss_sheet %}
-            {% include style.scss %}
-            @media (prefers-color-scheme: dark) {
-                {% include style-dark.scss %}
-            }
-        {% endcapture %}
-    {% elsif site.dark-theme %}
-        {% capture scss_sheet %}{% include style-dark.scss %}{% endcapture %}
-    {% else %}
-        {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
-    {% endif %}
+      <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
 
-    {{ scss_sheet | scssify }}
-    </style>
+      <div class="title-bar">
+        <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
+        {% include icon-links.html %}
+      </div>
 
-</head>
-<body>
-    <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
-        {% if page.layout == "post" %}
-            <div class="post">
-        {% else %}
-            {% if showHeader != true %}
-                <div class="page {{ page.title | downcase }}">
-            {% else %}
-                <div class="{{ page.title | downcase }}">
-            {% endif %}
-        {% endif %}
+      {{ content }}
 
-            {{ content }}
-            </div>
-                </div>
-            </div>
+      <footer class="page-footer">
+        <p class="footer-line">Stefan M. Arseneau</p>
+        <p class="footer-line"><i>Last updated: July 2024</i></p>
+      </footer>
+  
     </div>
-</body>
-</html>
+  
+  </body>
+  
+  </html>
