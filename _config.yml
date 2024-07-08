@@ -1,8 +1,6 @@
 # main text of home
 title: Stefan Arseneau
 bio: Astronomer
-
-# twitter summary info
 description: space
 
 # if it's an external image, update below for true
@@ -10,12 +8,7 @@ description: space
 external-image: false
 picture: assets/images/pfp_square.png
 
-# your site color theme, true for dark theme, 
-# false to light theme, auto to switch with system.
-dark-theme: false
-
 url: https://stefanarseneau.github.io
-# your url: https://USERNAME.github.io
 
 permalink: /:title/
 
@@ -23,10 +16,6 @@ permalink: /:title/
 # analytics-google: 'UA-MYANALYTICS'
 
 # if you don't have any of social below, comment the line
-#facebook: myfacebook
-#twitter: mytwitter
-#instagram: myinstagram
-#linkedin: mylinkedin
 resume_social_links:
   resume_github_url:            "https://github.com/stefanarseneau"
 
