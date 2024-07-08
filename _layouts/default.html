@@ -47,7 +47,15 @@
             {% endif %}
         {% endif %}
 
-        {% include social-links.html %}
+        <div class="social-links">
+            <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener" alt="anchor link for social media github" aria-label="anchor link for social media github">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}"  rel="noopener" alt="anchor link for email" aria-label="anchor link for email">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+        </div>
 
             {{ content }}
             </div>
