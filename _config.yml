@@ -27,28 +27,8 @@ permalink: /:title/
 #twitter: mytwitter
 #instagram: myinstagram
 #linkedin: mylinkedin
-github: stefanarseneau
-email: arseneausm@gmail.com
-
-authors:
-  johndoe:
-    name: stefan
-    bio: a big-time space astronomer
-    external-image: false
-    picture: assets/images/profile.jpg
-
-
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: normal
-
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+resume_social_links:
+  resume_github_url:            "https://github.com/stefanarseneau"
 
 exclude:
   [
