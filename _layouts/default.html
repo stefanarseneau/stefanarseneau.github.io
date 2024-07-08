@@ -13,9 +13,13 @@ layout: compress
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name=author content="{{ site.title }}">
 
+    {% seo %}
+
     {% include favicon.html %}
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+
+    <style>
     
     {% if site.dark-theme == "auto" %}
         {% capture scss_sheet %}
