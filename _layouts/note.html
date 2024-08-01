@@ -9,16 +9,8 @@
 
     <header class="page-header">
 
-      {% if site.resume_avatar == 'true' %}
-      <img src="/images/avatar2.jpg" alt="my photo" class="avatar" itemprop="image">
-      {% endif %}
-
-      <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
-
-      <div class="title-bar">
-        <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
-        {% include icon-links.html %}
-      </div>
+      <h1 class="header-name" itemprop="name">{{ page.title }}</h1>
+      <br><br><br>
 
       {{ content }}
 
