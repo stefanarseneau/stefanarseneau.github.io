@@ -23,11 +23,12 @@ resume_contact_email:           "arseneau@bu.edu"
 # Decide which sections to use
 # comment out to hide
 
+include: ['notes']
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/earlbellinger"
+  resume_github_url:            "https://github.com/stefanarseneau"
   #resume_dribbble_url:          "https://dribbble.com/jag"
   #resume_facebook_url:          "https://facebook.com/earlbellinger"
   #resume_linkedin_url:          "https://www.linkedin.com/in/earlbellinger"
