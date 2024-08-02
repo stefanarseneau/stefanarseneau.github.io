@@ -18,7 +18,9 @@ astronomy, stellar pulsations, and the intersection of physics and machine learn
 
 <p>Miscellaneous writing:
 <list>
-    <li><a href="{{ baseurl }}/notes/inverseproblems.md">Inverse Problems</a></li>
+    {% for post in site.posts %}
+    <li><a href="{{ post.url }}">Inverse Problems</a></li>
+    {% endfor %}
 </list>
 </p>
 
