@@ -140,3 +140,6 @@ $$g : \Gamma \to \mathcal{R}\text{ , } x\to ||\nabla V(x)||_2$$
 This means that we can define a *forward* problem by the mapping $$T : \rho \to g$$ and $$T(\rho) = g$$. This means that we have an inverse problem which is $$T^{-1}(g) = \rho$$. This is a problem of inverting a convolutional equation. If we have appropriate $$S$$, $$\Omega$$, $$\Gamma$$, and $$\rho$$,
 
 $$ ||\nabla V_1(x)||_2 = ||\nabla V_2(x)||_2 \forall x \in \mathcal{R}^3\backslash S \iff ||\nabla V_1(x)||_2 = ||\nabla V_2(x)||_2 \forall x \in \Gamma.$$
+
+**Full-Waveform Seismic Inversions ---**
+
