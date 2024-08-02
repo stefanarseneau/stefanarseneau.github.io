@@ -143,3 +143,38 @@ $$ ||\nabla V_1(x)||_2 = ||\nabla V_2(x)||_2 \forall x \in \mathcal{R}^3\backsla
 
 **Full-Waveform Seismic Inversions ---**
 
+The idea of a full-waveform seismic inversion (FWI) is to obtain information about the Earth's (or ocean's, or star's) structure from seismic waves generated at or near the surface. I'm going to use geophysical examples, but I believe the same ideas apply to astronomical examples (at least in principle). We can model the propagation of seismic waves in a domain $$\Omega \subset \mathcal{R}^3$$ by the elastic wave equation. A simplification of this which I will use exclusively is the acoustic wave equation, which allows us to ignore a lot of continuum mechanics.
+
+The displacement at point $$x\in\Omega$$ and time $$t \geq 0$$ is given by the vector $$u(x,t)\in\mathcal{R}^3$$ which defines a vector field $$u: \Omega\times[0,\infty) \to \mathcal{R}^3$$. We can relate this to a deviation in equillibrium pressure by the equation
+
+$$p = -\kappa\nabla\cdot u + S$$
+
+where $$\kappa = \kappa(x)$$ is the bulk modulus of the material and $$S = S(x, t)$$ is a source term. In geophysics this could be an explosive charge that triggers a seismic response or an airgun or hydrophone fired into the ocean for marine seismology. In white dwarf asteroseismology this would probably be a hydrogen or helium ionization. 
+
+Newton's law tells us that these two terms are also related as
+
+$$\nabla p = -\rho \frac{d^2 u}{dt^2}.$$
+
+We can see that knowing the domain $$\Omega$$, the density $$\rho = \rho(x)$$, and the bulk modulus $$\kappa = \kappa(x)$$ fully constrains the medium in the acoustic approximation. We can combine these two equations to get an expression for the propagation of an accoustic wave by noting that
+
+$$p = \kappa\nabla\cdot u + S \implies \frac{d^2}{dt^2}\nabla\cdot u = \frac{1}{\kappa}\frac{d^2 S}{dt^2} + \frac{1}{\kappa}\frac{d^2 p}{dt^2}$$
+
+$$\nabla p = -\rho\frac{d^2 u}{dt^2} \implies \frac{d^2}{dt^2}\nabla\cdot u = -\nabla\cdot\left(\frac{1}{\rho}\nabla p\right)$$
+
+and the speed of sound in the medium is defined as $$c = \sqrt{\kappa(x) / \rho(x)}$$ so that $$1/\kappa = 1/\rho c^2$$, leaving us with a differential equation governing the propagation of an acoustic seismic wave in a medium:
+
+$$\frac{1}{\rho c^2}\frac{d^2p}{dt^2} - \nabla\cdot\left(\frac{1}{\rho}\nabla p\right) = \frac{1}{\kappa}\frac{d^2 S}{dt^2}$$
+
+with initial conditions
+
+$$p(x, 0) = 0\text{ ,  } \frac{dp}{dt}(x, 0) = 0\text{ ,  } x\in\Omega$$
+
+and boundary conditions
+
+$$p(x, t) = 0\text{ ,  } x\in\partial\Omega\text{ ,  } t>0.$$
+
+We can prove that under the correct conditions, there exists a unique solution to this set of equations, meaning that there exists some mapping $$F : (\rho, \kappa) \to p.$$ Our hydrophones will only detect the pressure along some subset of the domain $$M \subset \Omega \times [0,\infty)$$, so our actual measurement will have an image which is the restriction of $$p$$ to the subset $$M$$:
+
+$$T : (\rho, \kappa) \to p_{|M}$$
+
+Our inverse problem then is of course recovering $$(\rho, \kappa)$$ from an observation. As with inverse gravimetry, this is not necessarily a one-to-one mapping so there's no guarantee that we can do this. We'll need to make assumptions and simplify.
