@@ -9,6 +9,7 @@ Notes based on [Inverse Problems: Basics, Theory and Applications in Geophysics]
     <h2>Table of Contents ---</h2>
 <list>
     <li><a href="#examples">01 - Examples of inverse problems, Fredholm and Volterra equations</a></li>
+    <li><a href="#inverse-gravimetry">02 - Inverse gravimetry and full-waveform seismic inversions</a></li>
 </list>
 <hr>
 </p>
@@ -90,7 +91,7 @@ ax2.plot(t, w_inverse(t), c = 'k')
 ax2.set_ylim(-8,8)
 </code></pre>
 
-<img itemprop="image" src="/images/inverse_problem_01.png">
+<div style="textalign: center"><img itemprop="image" src="/images/inverse_problem_01.png"></div>
 
 **Fredholm and Volterra Equations**
 
@@ -119,3 +120,23 @@ Linear Fredholm equations of the first and second kind have substantially differ
 $$u(t) = w'(t)\text{, }w(t_0) = 0 \iff w(t) = \int_{t_0}^t u(s) ds.$$
 
 Integral equations of the second kind contain unsmoothed versions outside of the integral, so they don't necessarily have to roughen up in the inverse.
+
+<h2 id="#inverse-gravimetry">02 - Inverse gravimetry and full-waveform seismic inversions</h2>
+
+Two of the "cannoncal" applications of inverse methods in geophysics are inverse gravimetry and full-waveform seismic inversions. In the former case, we might imagine that we're trying to learn about the density profile of the Earth by looking at the force it exerts on an orbiting spacecraft such as [GRACE](https://www.jpl.nasa.gov/missions/gravity-recovery-and-climate-experiment-grace). 
+
+**Inverse Gravimetry ---**
+
+Let the space that the Earth takes up be some subset $$D\subset \mathcal{R}^3$$, and let $$S = \bar{D}$$ be its closure. Then we can define a density profile for any point inside the surface of the Earth as $$\rho : S\to \mathcal{R}$$ with $$\rho(x) \geq 0$$. The gravitational potential of the Earth at any point in the space $$\mathcal{R}^3\backslash S$$ is defined by the convolutional equation
+
+$$V(x) = -G \int_S \frac{\rho(y)}{||x-y||_2} dy = \int_S k(x - y) \rho(y) dy\text{ , where } k(x - y) = \frac{-G}{||x-y||_2}$$
+
+where we'll assume that $$S$$ and $$\rho(x)$$ are well-enough defined that the function is Lebesgue integrable. The gravitational force exerted by the body occuping space $$S$$ is given by the negative gradient: $$F(x) = -\nabla V(X)$$. Obviously we can't measure these values at every point in $$\mathcal{R}^3\backslash S$$ since that space has infinite measure. 
+
+Fortunately, we can imagine that the body of the Earth is contained by some convex space $$\Omega$$ (which may be a ball, for example, or half a ball, or whatever else) so that $$S\subset \Omega\subset \mathcal{R}^3$$. Then taking $$\Gamma\subset\partial\Omega$$, let's say that we can measure the magnitude of the gravitational force on $$\Gamma$$. In practice, $$\Gamma$$ is going to be something like the track over which a satellite orbits, a lesser-dimensional subspace of the boundary $$\partial\Omega$$. We can express the magnitude of the potential function:
+
+$$g : \Gamma \to \mathcal{R}\text{ , } x\to ||\nabla V(x)||_2$$
+
+This means that we can define a *forward* problem by the mapping $$T : \rho \to g$$ and $$T(\rho) = g$$. This means that we have an inverse problem which is $$T^{-1}(g) = \rho$$. This is a problem of inverting a convolutional equation. If we have appropriate $$S$$, $$\Omega$$, $$\Gamma$$, and $$\rho$$,
+
+$$ ||\nabla V_1(x)||_2 = ||\nabla V_2(x)||_2 \forall x \in \mathcal{R}^3\backslash S \iff ||\nabla V_1(x)||_2 = ||\nabla V_2(x)||_2 \forall x \in \Gamma.$$
