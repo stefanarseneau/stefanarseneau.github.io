@@ -3,9 +3,10 @@ layout: note
 title:  "Inverse Methods"
 ---
 
+Notes based on [Inverse Problems: Basics, Theory and Applications in Geophysics](https://link.springer.com/book/10.1007/978-3-319-48384-9) by Mathias Richter and [Inverse Theory and Applications in Geophysics](https://www.sciencedirect.com/book/9780444626745/inverse-theory-and-applications-in-geophysics) by Michael S. Zhdanov.
+
 <p>
-    <b>Table of Contents:</b>
-    ---
+    <h2>Table of Contents ---</h2>
 <list>
     <li><a href="#examples">01 - Examples of inverse problems, Fredholm and Volterra equations</a></li>
 </list>
@@ -91,4 +92,30 @@ ax2.set_ylim(-8,8)
 
 <img itemprop="image" src="/images/inverse_problem_01.png">
 
+**Fredholm and Volterra Equations**
 
+Suppose we have some sort of integral equation which maps some cause to some effect, $$u, w:[a,b]\to \mathcal{R}$$, and has the form
+
+$$\int_a^b k(s, t, u(t)) dt = w(s) \text{ , } a \leq s \leq b$$
+
+where $$k:[a,b]^2\times \mathcal{R}\to \mathcal{R}$$ is a kernel function. An equation of this form is called a *Fredholm integral equation of the first kind.* A special case of this is the *linear* Fredholm equation of the first kind, which has form
+
+$$\int_a^b k(s,t) u(t) dt = w(s)\text{ , } a \leq s \leq b.$$
+
+If this kernel has the special property that $$k(s,t) = 0$$ when $$t > s$$, then the equation becomes a *Volterra integral equation of the first kind*, which can be written as
+
+$$\int_a^s k(s,t) u(t)dt = w(s)\text{ , } a\leq s\leq b.$$
+
+Another special case is that in which the kernel function has the property $$k(s,t) = k(s - t)$$. In this case, the linear Fredholm equation is called a *convolutional equation*:
+
+$$\int_a^b k(s-t)u(t) dt = w(s)\text{ , } a \leq s \leq b.$$
+
+Finally, we have Volterra or Fredholm equations of the second kind when the function $$u(t)$$ appears both inside and outside of the integral:
+
+$$u(s) + \lambda\int_a^b k(s,t)u(t)dt = w(s)\text{ , }a \leq s \leq b\text{ , } \lambda\in\mathcal{R}.$$
+
+Linear Fredholm equations of the first and second kind have substantially different properties. Most notably, if the kernel $$k$$ is smooth (in the mathematical sense, e.g. continuous), then the mapping $$u\to w$$ also has that smoothing property. This means that a solution which involves inverting that mapping, which must necessarily invert an integration, must necessarily roughen $$w$$ and amplify the error. The computation of derivatives in the population growth example is equivalent to solving a Volterra integral equation:
+
+$$u(t) = w'(t)\text{, }w(t_0) = 0 \iff w(t) = \int_{t_0}^t u(s) ds.$$
+
+Integral equations of the second kind contain unsmoothed versions outside of the integral, so they don't necessarily have to roughen up in the inverse.
