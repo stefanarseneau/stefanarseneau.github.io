@@ -137,7 +137,7 @@ $$u(t) = w'(t)\text{, }w(t_0) = 0 \iff w(t) = \int_{t_0}^t u(s) ds.$$
 Integral equations of the second kind contain unsmoothed versions outside of the integral, so they don't necessarily have to roughen up in the inverse.
 
 
-<h2 id="#inverse-gravimetry">02 - Inverse gravimetry and full-waveform seismic inversions</h2>
+<h2 id="inverse-gravimetry">02 - Inverse gravimetry and full-waveform seismic inversions</h2>
 
 Two of the "cannoncal" applications of inverse methods in geophysics are inverse gravimetry and full-waveform seismic inversions. In the former case, we might imagine that we're trying to learn about the density profile of the Earth by looking at the force it exerts on an orbiting spacecraft such as [GRACE](https://www.jpl.nasa.gov/missions/gravity-recovery-and-climate-experiment-grace). 
 
