@@ -26,6 +26,17 @@
     margin: 0 auto;
     zoom: 1;
   }
+
+  .wrappernote:before,
+  .wrappernote:after { content:""; display:table; }
+  .wrappernote:after { clear: both; }
+  .wrappernote {
+    //max-width: 728px;
+    max-width: 1200px;
+    padding: 0 24px;
+    margin: 0 auto;
+    zoom: 1;
+  }
   
   // clearfix (now called group,
   // via http://css-tricks.com/snippets/css/clear-fix/)
