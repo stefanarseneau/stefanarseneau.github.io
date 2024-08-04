@@ -8,6 +8,7 @@
   <div class="wrapper" itemscope itemtype="http://schema.org/Person">
 
     <header class="page-header">
+
       {% if site.resume_avatar == 'true' %}
       <img src="/images/avatar2.jpg" alt="my photo" class="avatar" itemprop="image">
       {% endif %}
@@ -18,19 +19,16 @@
         <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
         {% include icon-links.html %}
       </div>
-    
 
-    {{ content }}
+      {{ content }}
 
-    </header>
-
-    <footer class="page-footer">
-      <p class="footer-line">Stefan M. Arseneau</p>
-      <p class="footer-line"><i>Last updated: July 2024</i></p>
-    </footer>
+      <footer class="page-footer">
+        <p class="footer-line">Stefan M. Arseneau</p>
+        <p class="footer-line"><i>Last updated: July 2024</i></p>
+      </footer>
   
-  </div>
-  </div>  
+    </div>
+  
   </body>
   
   </html>
