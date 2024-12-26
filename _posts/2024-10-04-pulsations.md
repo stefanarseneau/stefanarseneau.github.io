@@ -3,6 +3,8 @@ layout: note
 title:  "Derive Every Dispersion Relation!"
 ---
 
+<ins>*Subtitle:*</ins> In which I do not, in fact, derive every dispersion relation.
+
 Notes based on [Lecture Notes on Stellar Oscillations](https://users-phys.au.dk/jcd/oscilnotes/Lecture_Notes_on_Stellar_Oscillations.pdf) by Jorgen Christensen-Dalsgaard.
 
 <p>

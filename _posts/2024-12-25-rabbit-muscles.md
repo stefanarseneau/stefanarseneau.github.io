@@ -3,6 +3,8 @@ layout: note
 title:  "Rabbit Muscles, Stochastic Parrots, and Learning"
 ---
 
+<ins>*Subtitle:*</ins> Ignorant astronomer mindlessly muses on machine learning that he does not understand and biophysics which he understands even less.
+
 Shamelessly stolen from [Stochastic Thermodynamics: An Introduction](https://press.princeton.edu/books/hardcover/9780691201771/stochastic-thermodynamics) by Luca Peliti and Simone Pigolotti.
 
 <p>
