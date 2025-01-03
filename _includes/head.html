@@ -8,6 +8,28 @@
     <meta http-equiv='cache-control' content='no-cache'> 
   
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    {% if page.twocols == true %}
+    <style>
+      .twocol-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start; /* Aligns columns at the top */
+        margin-bottom: 1rem; /* Adds spacing between rows */
+        gap: 2rem; /* Adds space between columns */
+      }
+      .number-column {
+        width: 3%; /* Small column for numbers */
+        text-align: right; /* Align numbers to the right */
+        padding-right: 1rem; /* Space between numbers and text */
+      }
+      .twocol-column {
+        width: 47%; /* Adjust width for content columns */
+        text-align: justify; /* Justify text for clean alignment */
+      }
+    </style>
+    {% endif %}
+
   
     <!-- Google font typography settings - defined in _config.yml -->
     {% if site.resume_theme == 'default' %}
@@ -17,6 +39,7 @@
     <!--<link href='http://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css'>-->
     {% endif %}
 
+  
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         tex2jax: {
