@@ -1,19 +1,7 @@
 ---
 layout: note
-title:  "Birdwatching In Boston, Baltimore, and Barcelona"
+title:  "Wild Turkey: A Culmination of Approximately 65.5 Million Years of Evolution"
 ---
-
-<ins>*Subtitle:*</ins> Inane musings on a hobby I enjoy but don't understand, and on which I am not qualified to speak.
-
-<p>
-    <h2>Table of Contents ---</h2>
-<list>
-    <li><a href="#12/26/2024">26 December 2024 - Wild Turkey as a Culmination of Approximately 65.5 Million Years of Evolution</a></li>
-</list>
-<hr>
-</p>
-
-<h2 id="12/26/2024">26 December 2024 - Wild Turkey as a Culmination of Approximately 65.5 Million Years of Evolution</h2>
 
 Over the past several weeks I've been slowly making my way through the Cornell Lab of Orinthology's [Handbook of Bird Biology](https://academy.allaboutbirds.org/textbook/). This has been my effort to get a better understanding of a hobby I took up recently on a trip to Barcelona and have continued. Birds, apparently, are so closely related to dinosaurs that modern members of the Class Aves could correctly be considered to be a subset of Class Reptilia. The distinction between the two Classes is just a matter of convention. Crocodiles are the nearest living relative to birds outside of Class Aves.
 

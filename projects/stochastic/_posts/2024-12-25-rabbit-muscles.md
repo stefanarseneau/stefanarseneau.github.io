@@ -1,21 +1,12 @@
 ---
 layout: note
 title:  "Rabbit Muscles, Stochastic Parrots, and Learning"
+category: stochastic 
 ---
 
 <ins>*Subtitle:*</ins> Ignorant astronomer mindlessly muses on machine learning that he does not understand and biophysics which he understands even less.
 
 Shamelessly stolen from [Stochastic Thermodynamics: An Introduction](https://press.princeton.edu/books/hardcover/9780691201771/stochastic-thermodynamics) by Luca Peliti and Simone Pigolotti.
-
-<p>
-    <h2>Table of Contents ---</h2>
-<list>
-    <li><a href="#rabbit">12/25/2024 - Rabbit Muscles and Stochastic Parrots</a></li>
-</list>
-<hr>
-</p>
-
-<h2 id="rabbit">12/25/2024 - Rabbit Muscles and Stochastic Parrots</h2>
 
 Muscle cells (called myosin) produce energy through hydrolysis of ATP. For rabit S1 myosin cells, that network can be described by a simple graph with energies and jump rates:
 

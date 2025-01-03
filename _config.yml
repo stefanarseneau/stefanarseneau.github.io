@@ -15,6 +15,11 @@ resume_name:                    "Stefan Arseneau"
 resume_title:                   "Astrophysicist"
 resume_contact_email:           "arseneau@bu.edu"
 
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:categories:output_ext
+
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely

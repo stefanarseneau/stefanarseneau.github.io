@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
+
+  <div class="wrappernote" itemscope itemtype="http://schema.org/Person">
+
+    <header class="page-header">
+
+      <h1 class="header-name" itemprop="name">{{ page.title }}</h1>
+      <br>
+
+      {{ content }}
+
+      <div align="center">
+        <ul style="list-style-type: none;">
+          {% assign page_category = page.categories | first %}
+          {% for post in site.posts %}
+            {% if post.categories contains page_category %}
+            <li>
+              {%- assign date_format = site.minima.date_format | default: "%-d %b, %Y" -%}
+              <b>
+                <a href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </b> (<i>{{ post.date | date: date_format }}</i>)
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      <footer class="page-footer">
+        <p class="footer-line">Stefan M. Arseneau</p>
+        <p class="footer-line"><i>Last updated: July 2024</i></p>
+      </footer>
+   
+    </div>
+
+</body>
+
+</html>
