@@ -83,6 +83,3 @@ What we get is a clearly stochastic system that features occasional jumps in wor
 </p>
 
 Simulating walks on this network is an exercise in random walks on a graph. It's the same basic process that would go into sampling from a very simple bigram language model. In that case, the nodes would correspond to letters (a, b, c, ..., z) and the jump rate edges would correspond to the rates associated with some training data. For example if we loaded in example text, we might notice that the node corresponding to "q", occuring 10 times, was always followed by the letter "u". In that case, we would assign the directed edge from "q" to "u" the value of 10. Then, we could use the Gillespie algorithm (but without the time step parts) to sample from this language model and generate text. It won't work very well, but since when has that ever stopped anyone?
-
-
-
