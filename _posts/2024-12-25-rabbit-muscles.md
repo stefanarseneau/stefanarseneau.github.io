@@ -10,13 +10,12 @@ Shamelessly stolen from [Stochastic Thermodynamics: An Introduction](https://pre
 <p>
     <h2>Table of Contents ---</h2>
 <list>
-    <li><a href="#rabbit">01 - Rabbit Muscles</a></li>
-    <li><a href="#parrot">02 - Stochastic Parrots</a></li>
+    <li><a href="#rabbit">12/25/2024 - Rabbit Muscles and Stochastic Parrots</a></li>
 </list>
 <hr>
 </p>
 
-<h2 id="rabbit">01 - Rabbit Muscles</h2>
+<h2 id="rabbit">12/25/2024 - Rabbit Muscles and Stochastic Parrots</h2>
 
 Muscle cells (called myosin) produce energy through hydrolysis of ATP. For rabit S1 myosin cells, that network can be described by a simple graph with energies and jump rates:
 
@@ -83,8 +82,7 @@ What we get is a clearly stochastic system that features occasional jumps in wor
   <img src="/images/myosin_files/output_plot.png"  width="50%"/>
 </p>
 
-<h2 id="parrot">02 - Stochastic Parrots</h2>
-
 Simulating walks on this network is an exercise in random walks on a graph. It's the same basic process that would go into sampling from a very simple bigram language model. In that case, the nodes would correspond to letters (a, b, c, ..., z) and the jump rate edges would correspond to the rates associated with some training data. For example if we loaded in example text, we might notice that the node corresponding to "q", occuring 10 times, was always followed by the letter "u". In that case, we would assign the directed edge from "q" to "u" the value of 10. Then, we could use the Gillespie algorithm (but without the time step parts) to sample from this language model and generate text. It won't work very well, but since when has that ever stopped anyone?
+
 
 
