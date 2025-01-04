@@ -34,6 +34,7 @@ Good resources are [awesome-neural-sbi](https://github.com/smsharma/awesome-neur
 
 * <a href="https://www.cambridge.org/core/books/counterfactuals-and-causal-inference/5CC81E6DF63C5E5A8B88F79D45E1D1B7">Counterfactuals and Causal Inference by Steven L. Morgan and Christopher Winship;</a> comes recommended and will need to look into it. This is more suited toward social scientists, but then again I have no real reason to be learning causal inference techniques. I took a class with Steven Morgan; he's a good professor.
 * <a href="https://static1.squarespace.com/static/675db8b0dd37046447128f5f/t/677676888e31cc50c2c33877/1735816881944/hernanrobins_WhatIf_2jan25.pdf">Causal Inference: What If by Miguel Hernan and James Robins;</a> well written and intuitive as far as I've read so far. More enjoyable to read than most statistics books.
+* <a href="https://arxiv.org/abs/2206.15475">Causal Machine Learning: A Survey and Open Problems, Jean Kaddour, Aengus Lynch, Qi Liu, Matt J. Kusner, Ricardo Silva, 2022;</a> very long explainer of causal machine learning.
 
 <b id="blogs">Blogs---</b>
 
