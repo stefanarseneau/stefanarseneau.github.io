@@ -6,6 +6,14 @@ layout: note
 
 A compendium of resources to check whenever I feel the urge to do or learn something but don't want to figure out what. There is enough here to keep me engaged for a very long time.
 
+<b id="computation">Recent Whims---</b>
+
+Some books I've been bouncing between lately:
+
+* <a href="https://ui.adsabs.harvard.edu/abs/1974slbp.book.....G/abstract"> Spectral line broadening by plasmas by Hans Griem;</a> a good theoretical introduction to line broadening, but not very helpful for beginner computations...
+* <a href="https://www.cambridge.org/core/books/computational-physics/BEE73B0139D4A9993193B57CDC62096E">Computational Physics by Jos Thijssen;</a> very cool, very fun to implement.
+* <a href="https://www.fisica.uniud.it/~giannozz/Corsi/MQ/LectureNotes/mq.pdf">Numerical Methods in Quantum Mechanics by Paolo Giannozzi;</a> light on intuition, but includes example programs that I can use to check my work. Follows Thijssen, pretty in depth.
+
 <b id="inference">Applied Statistics---</b>
 
 Good resources are [awesome-neural-sbi](https://github.com/smsharma/awesome-neural-sbi) and [Cosma Shalizi's notebook](http://bactra.org/notebooks/simulation-based-inference.html).
